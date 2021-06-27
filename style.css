@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-body {
+.container {
   font-family: 'Muli', sans-serif;
   display: flex;
   align-items: center;
@@ -60,4 +60,12 @@ body {
   .panel:nth-of-type(5) {
     display: none;
   }
+}
+
+#intro{
+    position: absolute;
+    top: 6%;
+    left: 30px;
+    font-size: 18px;
+    color: #b97f13; font-family: 'Source Sans Pro', sans-serif; font-size: 28px; font-weight: 400; line-height: 32px; margin: 0 0 24px;
 }
